@@ -6,8 +6,6 @@ var total = document.getElementById("total");
 var list = document.getElementById("data");
 
 function myData() {
-  // create element
-  // append to ul 
   var liElem = document.createElement("li");
   list.appendChild(liElem);
   
