@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid">
+      <div class="slide">
+        <div class="title">
+          <h1>Calorie Counter</h1>
+        </div>
+        <div class="controls">
+          <label for="">Food</label>
+          <input type="text" id="food">
+          <label for="">Calories</label>
+          <input type="number" id="cal">
+          <label for="date">Date</label>
+          <input type="date" id="date">
+          <label for="">Save</label>
+          <input type="submit" onclick="myData()">
+        </div>
+      </div>
+    </div>
+    <!-- data -->
+    <div class="data-main results">
+      <div class="header">
+        <h3>Data</h3>
+        <div id="total"></div>
+      </div>
+      <ul id="data">
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
