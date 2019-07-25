@@ -14,7 +14,7 @@ function myData() {
   liElem.appendChild(spanElemFood);  
   var spanElemFoodTxt = document.createTextNode(food.value);
   spanElemFood.appendChild(spanElemFoodTxt);
-  // set attributes
+  // attributes
   spanElemFood.setAttribute("id", "food-value");
   spanElemFood.setAttribute("class", "data-span");
   spanElemFood.addEventListener("click", function(){
